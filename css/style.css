@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/*
+
+0-600 - phone
+600-900 - tablet portrait 
+900-1200 - tablet landscape 
+1200-1800 - normal design 
+1800 + - big desktop
+
+
+
+*/
 /* Colors */
 /* Font */
 /* Grid */
@@ -11,6 +22,12 @@
 
 body {
   box-sizing: border-box; }
+
+html {
+  font-size: 1rem; }
+  @media (max-width: 600px) {
+    html {
+      font-size: 50%; } }
 
 body {
   font-family: "Lato", sans-serif;
