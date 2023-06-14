@@ -26,3 +26,9 @@ html {
     font-size: 75%;
   }
 }
+
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}
